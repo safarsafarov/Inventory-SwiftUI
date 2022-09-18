@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9CC88728D7510E00008792 /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9CC88628D7510E00008792 /* InventoryListViewModel.swift */; };
+		8B9CC88928D7512600008792 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9CC88828D7512600008792 /* SortType.swift */; };
 		8BD9C0A428D70A2E0029EED1 /* Inventory_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C0A328D70A2E0029EED1 /* Inventory_SwiftUIApp.swift */; };
 		8BD9C0A628D70A2E0029EED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C0A528D70A2E0029EED1 /* ContentView.swift */; };
 		8BD9C0A828D70A360029EED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD9C0A728D70A360029EED1 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B9CC88628D7510E00008792 /* InventoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewModel.swift; sourceTree = "<group>"; };
+		8B9CC88828D7512600008792 /* SortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortType.swift; sourceTree = "<group>"; };
 		8BD9C0A028D70A2E0029EED1 /* Inventory-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD9C0A328D70A2E0029EED1 /* Inventory_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8BD9C0A528D70A2E0029EED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				8BD9C0A728D70A360029EED1 /* Assets.xcassets */,
 				8BD9C0A928D70A360029EED1 /* Preview Content */,
 				8BD9C0BB28D734030029EED1 /* InventoryItem.swift */,
+				8B9CC88628D7510E00008792 /* InventoryListViewModel.swift */,
+				8B9CC88828D7512600008792 /* SortType.swift */,
 			);
 			path = "Inventory-SwiftUI";
 			sourceTree = "<group>";
@@ -158,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD9C0BC28D734030029EED1 /* InventoryItem.swift in Sources */,
+				8B9CC88728D7510E00008792 /* InventoryListViewModel.swift in Sources */,
 				8BD9C0A628D70A2E0029EED1 /* ContentView.swift in Sources */,
+				8B9CC88928D7512600008792 /* SortType.swift in Sources */,
 				8BD9C0A428D70A2E0029EED1 /* Inventory_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
