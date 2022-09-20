@@ -41,6 +41,7 @@ struct ContentView: View {
         .navigationTitle("Inventories")
     }
     
+    // List Item Selection View
     private var listItemsSectionView: some View {
         Section {
             ForEach(items) { item in
@@ -64,6 +65,7 @@ struct ContentView: View {
         }
     }
     
+    // Sort By Section View
     private var sortBySectionView: some View {
         Section {
             DisclosureGroup("Sort by") {
@@ -78,6 +80,7 @@ struct ContentView: View {
         }
     }
     
+    // On Sort Type Changed
     private func onSortTypeChanged() {
         $items.predicates = vm.predicates
     }
